@@ -1,0 +1,306 @@
+<div class="wrapper">
+    <app-header></app-header>
+    <app-asside></app-asside>
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>
+                All users
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="#"> Home</a></li>
+            </ol>
+        </section>
+        <!-- Main content -->
+        <section class="content">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="box">
+                        <div class="box-header">
+                            <h3 class="box-title">Users</h3>
+                        </div>
+                        <!-- /.box-header -->
+                        <div class="box-body">
+                            <div id="example1_wrapper" class="form-inline dt-bootstrap">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="dataTables_length" id="example1_length">
+                                            <label>Show <select name="example1_length" aria-controls="example1"
+                                                    class="form-control input-sm">
+                                                    <option value="10">10</option>
+                                                    <option value="25">25</option>
+                                                    <option value="50">50</option>
+                                                    <option value="100">100</option>
+                                                </select> entries </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div id="example1_filter" class="dataTables_filter right-search">
+                                            <input type="search" class="form-control input-sm" placeholder="search"
+                                                aria-controls="example1">
+                                        </div>
+                                    </div>
+                                </div>
+                                <table id="example2" class="table table-bordered table-hover org organization-table">
+                                    <thead>
+                                        <tr>
+                                            <th> Photo</th>
+                                            <th>Name</th>
+                                            <th> Registeration Date </th>
+                                            <th> Gender </th>
+                                            <th> Status </th>
+                                            <th> Action </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+
+                                            <td routerLink="/usercontract"><img src="assets/images/org1.png" alt="organization-img" /></td>
+                                            <td  routerLink="/usercontract" class="name-org">Mohamed
+                                                Ahmed
+                                            </td>
+                                            <td routerLink="/usercontract">1-1-2020</td>
+                                            <td routerLink="/usercontract"><i class="fa fa-male"></i></td>
+                                            <td routerLink="/usercontract"><button class="btn btn-success">Active</button></td>
+                                            <td class=" text-center">
+                                                <button type="button" class="edit-button btn btn-success" type="button"
+                                                    data-toggle="modal" data-target=".user-edit">
+                                                    <i class="glyphicon glyphicon-pencil"></i>
+                                                </button>
+                                                <button type="button" class="edit-button btn btn-danger" type="button"
+                                                    data-toggle="modal" data-target=".romove-popup">
+                                                    <i class="glyphicon glyphicon-trash"></i>
+                                                </button>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td routerLink="/usercontract"><img src="assets/images/org1.png" alt="organization-img" /></td>
+                                            <td  routerLink="/usercontract" class="name-org">Omnia
+                                                Atef
+                                            </td>
+                                            <td routerLink="/usercontract">2-9-2019</td>
+                                            <td routerLink="/usercontract"><i class="fa fa-male"></i></td>
+                                            <td routerLink="/usercontract"><button class="btn btn-success">Active</button></td>
+                                            <td class=" text-center">
+                                                <button type="button" class="edit-button btn btn-success" type="button"
+                                                    data-toggle="modal" data-target=".user-edit">
+                                                    <i class="glyphicon glyphicon-pencil"></i>
+                                                </button>
+                                                <button type="button" class="edit-button btn btn-danger" type="button"
+                                                    data-toggle="modal" data-target=".romove-popup">
+                                                    <i class="glyphicon glyphicon-trash"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td routerLink="/usercontract"><img src="assets/images/org1.png" alt="organization-img" /></td>
+                                            <td  routerLink="/usercontract" class="name-org">
+                                                Ahmed Ahmed
+                                            </td>
+                                            <td routerLink="/usercontract">5-5-2020</td>
+                                            <td  routerLink="/usercontract"><i class="fa fa-male"></i></td>
+                                            <td><button class="btn btn-success">Active</button></td>
+                                            <td class=" text-center">
+                                                <button type="button" class="edit-button btn btn-success" type="button"
+                                                    data-toggle="modal" data-target=".user-edit">
+                                                    <i class="glyphicon glyphicon-pencil"></i>
+                                                </button>
+                                                <button type="button" class="edit-button btn btn-danger" type="button"
+                                                    data-toggle="modal" data-target=".romove-popup">
+                                                    <i class="glyphicon glyphicon-trash"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td  routerLink="/usercontract"><img src="assets/images/org1.png" alt="organization-img" /></td>
+                                            <td  routerLink="/usercontract" class="name-org">Atef
+                                                Mohamed
+                                            </td>
+                                            <td  routerLink="/usercontract">1-2-2020</td>
+                                            <td routerLink="/usercontract"><i class="fa fa-male"></i></td>
+                                            <td><button class="btn btn-success">Active</button></td>
+                                            <td class=" text-center">
+                                                <button type="button" class="edit-button btn btn-success" type="button"
+                                                    data-toggle="modal" data-target=".user-edit">
+                                                    <i class="glyphicon glyphicon-pencil"></i>
+                                                </button>
+                                                <button type="button" class="edit-button btn btn-danger" type="button"
+                                                    data-toggle="modal" data-target=".romove-popup">
+                                                    <i class="glyphicon glyphicon-trash"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-5">
+                                </div>
+                                <div class="col-sm-7">
+                                    <div class="pagination-table">
+                                        <ul class="pagination">
+                                            <li class="paginate_button previous disabled" id="table_ratings_previous">
+                                                <a href="#" aria-controls="table_ratings" data-dt-idx="0">
+                                                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                                </a></li>
+                                            <li class="paginate_button active">
+                                                <a href="#" aria-controls="table_ratings">1</a>
+                                            </li>
+                                            <li class="paginate_button">
+                                                <a href="#" aria-controls="table_ratings">2</a>
+                                            </li>
+                                            <li class="paginate_button next" id="table_ratings_next">
+                                                <a href="#" aria-controls="table_ratings" data-dt-idx="6" tabindex="0">
+                                                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.box-body -->
+                    </div>
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+        </section>
+        <!-- /.content -->
+    </div>
+    <app-footer></app-footer>
+</div>
+<!-- start remove popup -->
+<!-- start edit organization popup -->
+<div class="modal fade romove-popup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-md" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="fa fa-times"></i>
+                </button>
+                <h4 class="modal-title" id="gridSystemModalLabel"> <i class="fa fa-trash"></i> Remove User
+                </h4>
+            </div>
+            <div class="modal-body">
+                <h4>Are you sure to remove </h4>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Yes</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">No</button>
+            </div>
+            <!-- /.nav-tabs-custom -->
+        </div>
+    </div>
+</div>
+<!-- end remove popup -->
+<!-- start user edit -->
+<div class="modal fade user-edit" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="fa fa-times"></i>
+                </button>
+                <h4 class="modal-title"> <i class="fa fa-pencil"></i> Edit User
+                </h4>
+            </div>
+            <div class="modal-body">
+                <div class="nav-tabs-custom">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#Data-edit" data-toggle="tab">Login Data</a></li>
+                        <li><a href="#profile-edit" data-toggle="tab">Profile</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="active tab-pane" id="Data-edit">
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Name</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Email</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">User Name</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" placeholder="User Name">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Password</label>
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control" placeholder="Password">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- /.tab-pane -->
+                        <div class="tab-pane" id="profile-edit">
+                            <form class="form-horizontal">
+                                <!-- gender -->
+                                <div class="form-group">
+                                    <label class="form-control-label col-sm-2">Gender</label>
+                                    <div class="col-sm-10">
+                                        <label class="radio-inline" for="inline-radio1">
+                                            <input type="radio" name="gender"> male
+                                        </label>
+                                        <label class="radio-inline" for="inline-radio2">
+                                            <input type="radio" name="gender"> female
+                                        </label>
+                                    </div>
+                                </div>
+                                <!-- Phone -->
+                                <div class="form-group">
+                                    <label for="phone" class="control-label col-sm-2">Phone</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" placeholder="Phone" required="">
+                                    </div>
+                                </div>
+                                <!-- Mobile -->
+                                <div class="form-group">
+                                    <label for="mobile" class="control-label col-sm-2">Mobile</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" placeholder="Mobile" required="">
+                                    </div>
+                                </div>
+                                <!-- Address -->
+                                <div class="form-group">
+                                    <label for="address1" class="control-label col-sm-2">Address</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" placeholder="your Address" required="">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Upload Photo</label>
+                                    <div class="col-sm-10">
+                                        <div class="upload-btn-wrapper">
+                                            <button class="btn">Choose photo</button>
+                                            <input type="file" name="myfile" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <!-- /.tab-content -->
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-primary" data-dismiss="modal">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.nav-tabs-custom -->
+                </div>
+            </div>
+        </div>
+        <!-- end add user popup -->
+    </div>
+</div>

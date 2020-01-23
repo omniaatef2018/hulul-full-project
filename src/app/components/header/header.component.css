@@ -1,0 +1,15 @@
+.arabic-lang,
+.english-lang{
+    width:30px;
+    height:30px;
+    margin-top:10px;
+    float:right
+}
+.arabic-lang{
+    display: none
+}
+.arabic-lang:hover,
+.english-lang:hover
+{
+    cursor: pointer;
+}
