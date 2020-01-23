@@ -6769,6 +6769,15 @@ table.text-center th {
   left:10px;
   right:auto;
 }
+.arabicstyle  .nav-tabs>li
+{
+  float: right;
+}
+.arabicstyle .nav
+{
+  padding-right:0%;
+  padding-left:auto;
+}
 .arabicstyle  .pull-right,
 .arabicstyle .close,
 .arabicstyle .right-search{

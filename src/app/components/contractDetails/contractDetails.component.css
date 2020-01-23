@@ -12,3 +12,21 @@
 {
     margin-bottom:4%;
 }
+.panel-group
+{
+    margin-left:1%;
+    margin-right:1%;
+}
+.profile-box h4
+{
+    border-bottom:none;
+    padding-bottom:0%;
+}
+.panel-default>.panel-heading
+{
+    background-color:#fff;
+}
+.panel
+{
+    margin-bottom:1%;
+}
